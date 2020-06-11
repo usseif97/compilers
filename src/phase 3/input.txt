@@ -1,0 +1,19 @@
+int x ;
+x = 50;
+if ( x == 50 )
+{ 
+	x = 200;
+}
+else
+{
+	x= 20;
+}
+System.out.println(x);
+int i;
+for(i=0; i<10; i=i+1;){
+	System.out.println(i);
+}
+while(i >= 0){
+	System.out.println(i);
+	i = i - 1;
+}
